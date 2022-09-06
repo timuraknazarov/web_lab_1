@@ -48,8 +48,9 @@ div {
 
 a {
     color: red;
-    margin-left: 40%;
-    margin-right: auto;
+    display: block;
+    margin: 0 auto 0 auto;
+    text-align: center;
 }
 
 span{
@@ -66,4 +67,17 @@ section{
 
 td{
     padding: 5px;
+}
+
+li{
+    margin-top: 10px;
+}
+
+p{
+    margin-top: 10px;
+}
+
+img{
+    float: right;
+    margin: 10px;
 }
